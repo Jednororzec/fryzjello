@@ -45,21 +45,27 @@
             <div class="image-bg"></div>
             <header>
                 <p>Grażyna Somsiadowa</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore ullam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora
+                    totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore
+                    ullam.</p>
             </header>
         </section>
         <section class="grazynka">
             <div class="image-bg"></div>
             <header>
                 <p>Grażyna Somsiadowa</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore ullam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora
+                    totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore
+                    ullam.</p>
             </header>
         </section>
         <section class="grazynka">
             <div class="image-bg"></div>
             <header>
                 <p>Grażyna Somsiadowa</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore ullam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque error iusto modi suscipit, tempora
+                    totam veniam. Ad, alias architecto aut doloribus facere facilis harum modi molestias nulla, tempore
+                    ullam.</p>
             </header>
         </section>
     </section>
@@ -67,7 +73,24 @@
 
     </section>
     <section id="kontakt">
+        <div class="kontakt-container">
+            <form>
+                <label for="imie">Imie</label>
+                <input type="text" class="imie input" id="imie" placeholder="Imie">
+                <label for="nazwisko">Nazwisko</label>
+                <input type="text" class="nazwisko input" id="nazwisko" placeholder="Nazwisko">
+                <label for="email">E-mail</label>
+                <input type="email" class="email input" id="email" placeholder="E-mail kontaktowy">
+                <label for="telefon">Telefon</label>
+                <input type="tel" class="telefon input" pattern="[5-9]{3}[0-9]{3}[0-9]{3}" id="telefon"
+                       placeholder="Telefon" minlength="9" maxlength="9">
+                <label for="wiadomosc">Wpisz wiadomosc</label>
+                <textarea id="wiadomosc" class="wiadomosc input" placeholder="Wpisz wiadomosc input" >
 
+            </textarea>
+                <input type="submit" class="Wyslij" id="wyslij" value="wyslij">
+            </form>
+        </div>
     </section>
 
     <script src="web/js/vendor/jquery-3-2-1.min.js"></script>

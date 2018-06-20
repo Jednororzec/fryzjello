@@ -186,6 +186,31 @@ section#oferta{
 section#kontakt{
     background-color: #8c5a90;
 }
-
-
-
+.kontakt-container{
+    width: 60%;
+    height: auto;
+    margin: 25vh auto;
+}
+.kontakt-container textarea,
+.kontakt-container input{
+    display: block;
+    width: 100%;
+    min-height: 50px;
+}
+.kontakt-container form label{
+    margin-top: 10px;
+    display: block;
+}
+.wiadomosc{
+    resize: vertical;
+    min-height: 200px !important;
+}
+.wyslij{
+    float: right;
+    padding: 10px;
+    background-color: #8c8886;
+    border-radius: 3px ;
+    width: 20% !important;
+    border-style: none;
+    margin-top: 10px;
+}
