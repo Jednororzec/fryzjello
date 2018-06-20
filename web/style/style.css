@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../asset/font/Lato-Light.ttf');
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    color: #000;
+}
+p{
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+section#o-nas,
+section#strona-glowa,
+section#kontakt,
+section#oferta{
+    width: 100%;
+    height: 100vh;
+
+    float: left;
+    display: block;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.58);
+    z-index: 2;
+}
+
+nav header{
+    display: inline;
+}
+
+nav header#logo{
+    float: left;
+    margin: 18px 0 0 40px;
+}
+nav header#linki{
+    float: right;
+    margin-right: 40px;
+}
+nav header#linki *{
+    display: inline-block;
+}
+nav header#linki div.link-container{
+    position: relative;
+}
+
+nav header#linki div.link-container a{
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+div.hover{
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: chartreuse;
+    bottom: 0;
+    left: 0;
+}
+
+p.imie-i-nazwisko{
+    font-size: 22px;
+}
+
+p.info{
+    line-height: 2px;
+    text-align: right;
+}
+.image-bg{
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+section#strona-glowa{
+    background: url('../asset/img/file.fryzjer.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.bg-opacity{
+    opacity: .5;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+section#strona-glowa header{
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+section header h2.motywacja{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-variant: all-petite-caps;
+    text-shadow: 0 0 2px #000;
+}
+
+
+section#o-nas{
+    background: url('../asset/img/cropped-baner-moon-5.jpeg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+section#o-nas section{
+    float: left;
+    margin: 25vh 8%;
+    position: inherit;
+}
+section#o-nas section.grazynka *{
+    padding: 5px;
+}
+section#o-nas section.grazynka:nth-child(n) div{
+    background: url('../asset/img/graz.jpg') no-repeat center center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 27px;
+}
+section#o-nas section.grazynka:nth-child(2) div{
+    background: url('../asset/img/grażynka.jpg') no-repeat center center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 27px;
+}
+section#o-nas section.grazynka:nth-child(3) div{
+    background: url('../asset/img/pGrazynka.jpg') no-repeat center center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 27px;
+}
+
+section#o-nas section.grazynka header p:first-child{
+    text-align: center;
+    font-size: 1.3em;
+    font-variant: all-petite-caps;
+}
+section#o-nas section div{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+section#o-nas section header{
+    max-width: 300px;
+    color: white;
+    background-color: #ffffff4d;
+    border-radius: 150px 150px 10px 10px;
+}
+
+section#oferta{
+    background-color: #436890;
+}
+
+section#kontakt{
+    background-color: #8c5a90;
+}
+
+
+
